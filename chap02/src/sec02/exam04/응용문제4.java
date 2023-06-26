@@ -1,0 +1,23 @@
+package sec02.exam04;
+
+import java.util.Scanner;
+
+public class 응용문제4 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("귀하의 성함은?");
+		String name = s.next();
+		System.out.println("귀하의 나이는?");
+		int age = s.nextInt();
+
+		if (age < 20) {
+			System.out.println(name + "님은 청년입니다.");
+			
+
+		} else {
+			System.out.println(name + "님은 장년입니다.");
+		}
+
+	}
+}
